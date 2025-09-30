@@ -11,7 +11,9 @@ public class Main {
 
        System.out.println(animais[0].toString());
 
-       System.out.println(animais[1].comunicar("O gato diz:"));
+       Gato gato = new Gato("Tom");
+
+       System.out.println(gato.comunicar("O gato diz:"));
     }
 }
 
